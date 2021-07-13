@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/blog"
-url: "https://rsnpj.github.io"
+baseurl: ""
+url: "https://blogs.roshanparajuli.com.np"
 
 # THEME-SPECIFIC CONFIGURATION
 title: RSNPJ.GITHUB.IO/BLOG                                    # site's title
