@@ -34,7 +34,7 @@ repository: rsnpj/blog
 
 comments:
   utterances:              
-    repo: rsnpj/blog                
+    repo: "https://github.com/rsnpj/blog"                
     issue-term: "comment" 
     theme:                
     label:                
