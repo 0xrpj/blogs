@@ -31,11 +31,13 @@ color_theme: auto                                       # auto, dark or light
 repository: rsnpj/blog
 
 # Comments
+
 comments:
-  provider: "utterances"
-  utterances:
-    theme: "github-light" # "github-dark"
-    issue_term: "pathname"
+  utterances:              
+    repo: rsnpj/blog                
+    issue-term: "comment" 
+    theme:                
+    label:                
     
 # comments:
 #   disqus_shortname:                                     # Your discus shortname for comments
