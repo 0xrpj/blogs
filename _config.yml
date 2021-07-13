@@ -3,7 +3,7 @@ baseurl: "/blog"
 url: "https://rsnpj.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Type on Strap                                    # site's title
+title: RSNPJ.GITHUB.IO/BLOG                                    # site's title
 description: "A website with blog posts and pages"      # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
@@ -12,7 +12,7 @@ favicon: assets/favicon.ico                             # Icon displayed in the 
 header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
 header_feature_image: assets/img/pexels/triangular.jpeg
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  Author: <a href="https://roshanparajuli.com.np/">Roshan Parajuli</a> 
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable

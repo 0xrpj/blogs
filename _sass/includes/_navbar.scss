@@ -59,7 +59,7 @@ nav {
 
   ul {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     list-style: none;
     line-height: 1.5;
     float: right;
@@ -99,6 +99,7 @@ nav {
 }
 
 @media screen and (max-width: $break) {
+
   .site-header {
     img.avatar {
       margin-top: -7px
@@ -133,9 +134,10 @@ nav {
     }
 
     li {
-      width: 100%;
+      // width: 100%;
       text-align: center;
       font-size: 1em;
+      margin-right: 1.4em;
       position: relative;
       background-color: var(--background);
       backdrop-filter: brightness(0.98);
