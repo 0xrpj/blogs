@@ -14,31 +14,32 @@ layout: default
   </header>
 
   <section class="post-content">
-  {% if page.bootstrap %}
-    <div class="bootstrap-iso">
-    {% endif %}
-      {{ content }}
     {% if page.bootstrap %}
+    <div class="bootstrap-iso">
+      {% endif %}
+      {{ content }}
+      {% if page.bootstrap %}
     </div>
-  {% endif %}
+    {% endif %}
   </section>
 
   <!-- Social media shares -->
   {% include social/share_buttons.html %}
 
-   <!-- Tag list -->
+  <!-- Tag list -->
   {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
   {% include default/tags_list.html tags=tag_list %}
 
 </article>
 
 <!-- Post navigation -->
-{% if site.post_navigation  or site.theme_settings.post_navigation %}
+{% if site.post_navigation or site.theme_settings.post_navigation %}
 {% include blog/post_nav.html %}
 {% endif %}
 
 <!--Utterances-->
-{% if site.comments.utterances.repo and site.comments.utterances.issue-term and site.comments.utterances.theme %} {% include social/utterances.html %} {% endif %}
+{% if site.comments.utterances.repo and site.comments.utterances.issue-term and site.comments.utterances.theme %} {%
+include social/utterances.html %} {% endif %}
 
 <!-- Cusdis -->
 {% if site.comments.cusdis_app_id or site.cusdis_app_id %}{% include social/cusdis.html %}{% endif %}
@@ -50,23 +51,79 @@ layout: default
 <!-- To change color of links in the page -->
 <style>
   header#main {
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
-  
-  {% if page.color %}
-  .feature-image a { color: {{ page.color }} !important; }
-  div#post-nav a { color: {{ page.color }} !important; }
-  footer a { color: {{ page.color }} !important; }
-  .site-header nav a:hover {  color: {{ page.color }} !important; }
-  header#main { 
-      background-color: {{ page.color }} !important;
-      background-image: url('{{ site.color_image | relative_url }}');
+
+    {
+    % if page.color %
   }
-  {% endif %}
-  
-  {% if page.feature-img %}
-  header#main { background-image: url('{{ page.feature-img | relative_url }}'); }
-  {% endif %}
+
+  .feature-image a {
+    color: {
+        {
+        page.color
+      }
+    }
+
+     !important;
+  }
+
+  div#post-nav a {
+    color: {
+        {
+        page.color
+      }
+    }
+
+     !important;
+  }
+
+  footer a {
+    color: {
+        {
+        page.color
+      }
+    }
+
+     !important;
+  }
+
+  .site-header nav a:hover {
+    color: {
+        {
+        page.color
+      }
+    }
+
+     !important;
+  }
+
+  header#main {
+    background-color: {
+        {
+        page.color
+      }
+    }
+
+     !important;
+    background-image: url('{{ site.color_image | relative_url }}');
+  }
+
+    {
+    % endif %
+  }
+
+    {
+    % if page.feature-img %
+  }
+
+  header#main {
+    background-image: url('{{ page.feature-img | relative_url }}');
+  }
+
+    {
+    % endif %
+  }
 </style>

@@ -3,7 +3,7 @@ baseurl: ""
 url: "https://blogs.roshanparajuli.com.np"
 
 # THEME-SPECIFIC CONFIGURATION
-title: RSNPJ.GITHUB.IO/BLOG                                    # site's title
+title: WAS IT THAT EASY ALL ALONG?                                    # site's title
 description: "A website with blog posts and pages"      # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
@@ -35,7 +35,7 @@ repository: rsnpj/blog
 comments:
   utterances:              
     repo: rsnpj/blog-comments                
-    issue-term: "comment" 
+    issue-term: title 
     theme: github-light              
     label:                
     
