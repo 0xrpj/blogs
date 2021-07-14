@@ -34,7 +34,7 @@
   }
 
   .avatar {
-    height: 3em;
+    height: 4em;
     width: 3em;
     float: left;
     margin-top: -13px;
@@ -49,6 +49,7 @@
     font-weight: bold;
     font-family: $font-family-logo;
     font-size: 1.3em;
+    padding-top: 10px;
   }
 }
 
@@ -80,7 +81,7 @@ nav {
 
     &#pull {
       i {
-        margin-top: 13px;
+        margin-top: 25px;
         margin-right: 10px;
         float: right;
       }

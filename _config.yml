@@ -32,12 +32,12 @@ repository: rsnpj/blog
 
 # Comments
 
-comments:
-  utterances:              
-    repo: rsnpj/blog-comments                
-    issue-term: title 
-    theme: auto            
-    label:                
+# comments:
+#   utterances:              
+#     repo: rsnpj/blog-comments                
+#     issue-term: title 
+#     theme: auto            
+#     label:                
     
 # comments:
 #   disqus_shortname:                                     # Your discus shortname for comments
