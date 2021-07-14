@@ -34,10 +34,10 @@ repository: rsnpj/blog
 
 comments:
   utterances:              
-    repo: rsnpj/blog                
+    repo: rsnpj/blog-comments                
     issue-term: "comment" 
-    # theme:                
-    # label:                
+    theme:                
+    label:                
     
 # comments:
 #   disqus_shortname:                                     # Your discus shortname for comments
