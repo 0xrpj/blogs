@@ -6,5 +6,5 @@ thumbnail: https://docs.microfocus.com/SM/9.60/Hybrid/Content/Resources/Images/s
 tags: [Markdown]
 ---
 
-Did you also struggle to understand the confusing matrix like me? Well, NOT ANYMORE! ...to be continued...
+Did you also struggle to understand the confusion matrix like me? Well, NOT ANYMORE! ...to be continued...
 
