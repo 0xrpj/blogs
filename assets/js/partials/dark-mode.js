@@ -5,8 +5,8 @@
 
 
 const themeButton = {
-    'light': '<i class="fas fa-adjust" aria-hidden="true"></i>',
-    'dark': '<i class="fas fa-adjust fa-rotate-180" aria-hidden="true"></i>'
+    'light': '<i class="fas fa-moon" aria-hidden="true"></i>',
+    'dark': '<i class="fas fa-sun fa-rotate-180" aria-hidden="true"></i>'
 }
 
 const currentTheme = () => sessionStorage.getItem('theme')

@@ -5,10 +5,10 @@ calendly:
 dribbble:
 facebook:
 flickr:
-github: sylhare
+github: rsnpj
 gitlab:
 google-scholar:   # e.g. "WXAAOb0AAAAJ"
-instagram:
+instagram: 
 hacker-news:
 keybase:
 linkedin:
@@ -16,7 +16,7 @@ mail:             # e.g. "sam@mail.com"
 map:              # e.g. "34.0886/-118.3191"
 mastodon:         # e.g. "fostodon.org/@sam"
 matrix:           # e.g. "@sam:matrix.org"
-medium:
+medium: rsnpj
 patreon:
 phone:            # e.g. "+11111111111"
 pinterest:
@@ -26,11 +26,11 @@ sms:              # e.g. "+11111111111"
 stack-exchange:   # e.g. "123456789"
 stack-overflow:   # e.g. "123456789"
 steam:
-telegram:
+telegram: rsnpj
 tumblr:
 twitch:
 twitter:
 vimeo:
 vk:
 wordpress:
-youtube:          # e.g. "UCqECaJ8Gagnn7YCbPEzWH6g"
+youtube: UCVJyOzRYgyZWz-27mJaUCCA        # e.g. "UCqECaJ8Gagnn7YCbPEzWH6g"

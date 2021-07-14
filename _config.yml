@@ -36,7 +36,7 @@ comments:
   utterances:              
     repo: rsnpj/blog-comments                
     issue-term: "comment" 
-    theme:                
+    theme: github-dark              
     label:                
     
 # comments:
