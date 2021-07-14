@@ -3,7 +3,7 @@ baseurl: ""
 url: "https://blogs.roshanparajuli.com.np"
 
 # THEME-SPECIFIC CONFIGURATION
-title: WAS IT THAT EASY ALL ALONG?                                    # site's title
+title: easypeasyblogs                                   # site's title
 description: "A website with blog posts and pages"      # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
@@ -36,7 +36,7 @@ comments:
   utterances:              
     repo: rsnpj/blog-comments                
     issue-term: title 
-    theme: github-light              
+    theme: photon-dark            
     label:                
     
 # comments:
