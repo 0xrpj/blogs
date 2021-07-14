@@ -36,7 +36,7 @@ comments:
   utterances:              
     repo: rsnpj/blog-comments                
     issue-term: title 
-    theme: photon-dark            
+    theme: auto            
     label:                
     
 # comments:
