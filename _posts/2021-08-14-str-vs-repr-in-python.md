@@ -53,7 +53,9 @@ It is more sensible than the random output we got before the dunder str method.
 However, if the mero_dog object is just inspected on the interpretor without the print statement as:
 
     mero_dog
+
 The output is similar as before i.e.
+
 **<__console__.Dog object at 0xXXXXXXXXX>**
 
 But, if we forcibly convert the object to the string by `str(mero_dog)`, the output would change to *'a brown small dog'.*
