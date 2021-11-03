@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/blogs"
+baseurl: ""
 url: "https://blogs.roshanparajuli.com.np"
 
 # THEME-SPECIFIC CONFIGURATION
