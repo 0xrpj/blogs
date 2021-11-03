@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/blogs"
-url: ""
+url: "https://blogs.roshanparajuli.com.np"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Blogs by Roshan Parajuli                         # site's title
