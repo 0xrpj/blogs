@@ -1,0 +1,38 @@
+#img404 {
+  width: 20em;
+}
+
+.site-header .avatar {
+  height: 3em !important;
+  margin-top: 0 !important;
+}
+
+#home-img {
+  width: 30em;
+  text-align: center;
+}
+
+.home-img {
+  display: block;
+  text-align: center;
+}
+
+.home-img > img {
+  width: 360px;
+  padding: 0 0;
+}
+
+.home-img > p {
+  padding: 0 50px !important;
+}
+
+@media screen and (max-width: 400px) {
+  .posts .excerpt {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .meta {
+    font-size: 16px;
+  }
+}

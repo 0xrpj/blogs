@@ -1,18 +1,19 @@
 ---
 layout: post
 title: How to replace VS Code external terminal with new windows terminal?
-thumbnail: "https://miro.medium.com/max/1400/0*M-nbKpaJOiBFhGn8.jpg"
+# thumbnail: "https://miro.medium.com/max/1400/0*M-nbKpaJOiBFhGn8.jpg"
 tags: [customization, windows]
 ---
+
 Your workspace needs to be as cool as you :)
 
-![Fig: The “new” windows terminal](https://cdn-images-1.medium.com/max/2560/0*M-nbKpaJOiBFhGn8.jpg)*Fig: The “new” windows terminal*
+![Fig: The “new” windows terminal](https://cdn-images-1.medium.com/max/2560/0*M-nbKpaJOiBFhGn8.jpg)_Fig: The “new” windows terminal_
 
 Personalizing workspace is always beneficial for productivity, at least for me. I hear a lot of people talking about how its better to just “work” without beautifying things but, I just can not work that way and I know most of you here can’t as well. In this article, I will guide you on how you can easily use the new and cool windows terminal as the external terminal in visual studio code. Not only that, we’d be discussing about cool themes, transparent terminal, cool fonts and a lot more.
 
 This is the end result. (p.s. Don’t hate me but I actually like light mode terminal better than the dark mode terminal 😜)
 
-![Fig: Execution of Java Program on the new terminal](https://cdn-images-1.medium.com/max/3300/1*8XySdGqQuBFZHR2L7JPJYg.png)*Fig: Execution of Java Program on the new terminal*
+![Fig: Execution of Java Program on the new terminal](https://cdn-images-1.medium.com/max/3300/1*8XySdGqQuBFZHR2L7JPJYg.png)_Fig: Execution of Java Program on the new terminal_
 
 “Woah, That’s so cool, YOU ARE SO COOL, How did you do it?”, you might wonder. I wondered for a long time and finally u/GoodClover helped me figure it out.
 
@@ -23,12 +24,13 @@ Let’s get straight to the point. Follow the steps below.
 ![](https://cdn-images-1.medium.com/max/2000/1*7t6A-c0bZv4OF0osl2aZRg.png)
 
 2. On the settings.json file that opens up, scroll down until you see (or search)
-> “terminal.external.windowsExec”: “C:\\WINDOWS\\SYSTEM32\\cmd.exe”,
+   > “terminal.external.windowsExec”: “C:\\WINDOWS\\SYSTEM32\\cmd.exe”,
 
 The value might be different in your system, but the key must be same.
 
 3. Change the value to “wt -p cmd cmd” and now the total command will look like this
-> “terminal.external.windowsExec”: “wt -p cmd cmd”,
+
+   > “terminal.external.windowsExec”: “wt -p cmd cmd”,
 
 4. Yay, You are good to go. You have what you wanted to achieve.
 
@@ -58,7 +60,7 @@ If you wanted to open a project folder in VSCode, its easy with the command prom
 
 ![](https://cdn-images-1.medium.com/max/2000/1*LAUuEJlHw4TtzTXWz8BWYA.png)
 
-You typed cmd on *whatever-bar* that’s called and a terminal window would pop at the same directory!
+You typed cmd on _whatever-bar_ that’s called and a terminal window would pop at the same directory!
 
 ![](https://cdn-images-1.medium.com/max/2000/1*-lcSxQJ00kO3B_vrUAZhmQ.png)
 
@@ -81,7 +83,7 @@ These are the steps:
 We just need to add just one line to make this work.
 
 2. Inside the defaults object which is inside the profiles object, just add this line:
-> “startingDirectory”: “%__CD__%”,
+   > “startingDirectory”: “%**CD**%”,
 
 p.s. Don’t mind the fontFace, fontSize and other keys.
 
@@ -105,47 +107,47 @@ For people who want their terminal to look exactly like mine does, here’s how:
 
 1. On the settings.json file of the windows terminal, search for schemes array and paste this object inside.
 
-    {
+   {
 
-    “name” : “Frost”,
+   “name” : “Frost”,
 
-    “background” : “#FFFFFF”,
+   “background” : “#FFFFFF”,
 
-    “black” : “#3C5712”,
+   “black” : “#3C5712”,
 
-    “blue” : “#17b2ff”,
+   “blue” : “#17b2ff”,
 
-    “brightBlack” : “#749B36”,
+   “brightBlack” : “#749B36”,
 
-    “brightBlue” : “#27B2F6”,
+   “brightBlue” : “#27B2F6”,
 
-    “brightCyan” : “#13A8C0”,
+   “brightCyan” : “#13A8C0”,
 
-    “brightGreen” : “#89AF50”,
+   “brightGreen” : “#89AF50”,
 
-    “brightPurple” : “#F2A20A”,
+   “brightPurple” : “#F2A20A”,
 
-    “brightRed” : “#F49B36”,
+   “brightRed” : “#F49B36”,
 
-    “brightWhite” : “#741274”,
+   “brightWhite” : “#741274”,
 
-    “brightYellow” : “#991070”,
+   “brightYellow” : “#991070”,
 
-    “cyan” : “#3C96A6”,
+   “cyan” : “#3C96A6”,
 
-    “foreground” : “#000000”,
+   “foreground” : “#000000”,
 
-    “green” : “#6AAE08”,
+   “green” : “#6AAE08”,
 
-    “purple” : “#991070”,
+   “purple” : “#991070”,
 
-    “red” : “#8D0C0C”,
+   “red” : “#8D0C0C”,
 
-    “white” : “#6E386E”,
+   “white” : “#6E386E”,
 
-    “yellow” : “#991070”
+   “yellow” : “#991070”
 
-    }
+   }
 
 It looks like this now:
 
@@ -153,23 +155,23 @@ It looks like this now:
 
 2. Scroll up to the list array and inside cmd object, remove everything except guid and paste this:
 
-    "name": "Command Prompt",
+   "name": "Command Prompt",
 
-    "commandline": "cmd.exe",
+   "commandline": "cmd.exe",
 
-    "hidden": false,
+   "hidden": false,
 
-    "colorScheme": "Frost",
+   "colorScheme": "Frost",
 
-    "acrylicOpacity": 0.7,
+   "acrylicOpacity": 0.7,
 
-    "cursorColor" : "#000000",
+   "cursorColor" : "#000000",
 
-    "fontSize": 14,
+   "fontSize": 14,
 
-    "fontFace":"Cascadia Code",
+   "fontFace":"Cascadia Code",
 
-    "fontWeight": "light"
+   "fontWeight": "light"
 
 It looks like this now:
 
