@@ -35,4 +35,8 @@
   .meta {
     font-size: 16px;
   }
+
+  .site-header .site-title {
+    margin-top: 0 !important;
+  }
 }
