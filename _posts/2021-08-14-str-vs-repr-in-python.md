@@ -2,7 +2,6 @@
 layout: post
 # hide_title: true
 title: __str__ vs __repr__
-feature-img: "assets/img/article-img/strvsrepr.jpg"
 tags: [python]
 ---
 
