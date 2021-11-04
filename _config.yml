@@ -10,7 +10,7 @@ favicon: assets/img/logo.png # Icon displayed in the tab
 
 # Header and footer text
 header_text: Change <code>header_text</code> in <code>_config.yml</code> # Change Blog header text
-header_feature_image: assets/img/pexels/triangular.jpeg
+header_feature_image: assets/img/header.png
 footer_text: >
   Author: <a href="https://roshanparajuli.com.np/">Roshan Parajuli</a>
 
