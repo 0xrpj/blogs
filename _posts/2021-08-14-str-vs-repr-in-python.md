@@ -2,7 +2,7 @@
 layout: post
 # hide_title: true
 title: __str__ vs __repr__
-# thumbnail: https://s.yimg.com/os/creatr-uploaded-images/2021-03/7e72b040-7d3b-11eb-befa-0e4889a26c33
+feature-img: "assets/img/article-img/strvsrepr.jpg"
 tags: [python]
 ---
 
