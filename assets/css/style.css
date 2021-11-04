@@ -26,6 +26,12 @@
   padding: 0 50px !important;
 }
 
+.comments {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff !important;
+}
+
 @media screen and (max-width: 400px) {
   .posts .excerpt {
     margin-bottom: 20px;

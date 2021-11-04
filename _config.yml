@@ -32,7 +32,7 @@ repository: rsnpj/blog
 
 # comments:
 # disqus_shortname:                                     # Your discus shortname for comments
-# cusdis_app_id: 9c12daad-69de-4ef4-bc6a-2c733df8a320   # Your cusdis data-app-id
+cusdis_app_id: 9c12daad-69de-4ef4-bc6a-2c733df8a320 # Your cusdis data-app-id
 # utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
 #   repo:                                               # your public comments repository (e.g. owner/repo)
 #   issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)

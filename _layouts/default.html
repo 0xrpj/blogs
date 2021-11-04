@@ -5,12 +5,34 @@
     https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
 -->
 <html lang="en">
-  {% include default/head.html %}
-  <body>
-    {% include default/navbar.html %}
-    <div class="content">
-      {{ content }}
-    </div>
-    {% include default/footer.html %}
-  </body>
+{% include default/head.html %}
+
+<body>
+  {% include default/navbar.html %}
+  <div class="content">
+    {{ content }}
+  </div>
+  {% include default/footer.html %}
+</body>
+
+<script>
+
+  console.log("rooo");
+
+  document.querySelector("iframe").style.backgroundColor = '#CDD9E5'
+
+  document.querySelector("iframe").style.padding = "20000px 50px"
+
+  if (document.readyState === "complete" || document.readyState === "loaded") {
+
+    console.log("BHayo");
+
+    document.querySelector("iframe").style.backgroundColor = '#CDD9E5'
+
+    document.querySelector("iframe").style.padding = "20px 50px"
+
+  }
+
+</script>
+
 </html>
